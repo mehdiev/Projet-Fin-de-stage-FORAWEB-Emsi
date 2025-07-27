@@ -1,0 +1,37 @@
+﻿@model Foramag.Models.V_Clt_Detail
+
+@{
+    ViewBag.Title = "Détail Client";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h3 class="mb-4 text-center">Détails du client</h3>
+
+    <table class="table table-bordered w-75 mx-auto">
+        <tr>
+            <th>Code Client</th>
+            <td>@Model.CardCode</td>
+        </tr>
+        <tr>
+            <th>Nom Client</th>
+            <td>@Model.CardName</td>
+        </tr>
+        <tr>
+            <th>Adresse</th>
+            <td>@Model.Address</td>
+        </tr>
+        <tr>
+            <th>Commercial</th>
+            <td>@Model.SlpName</td>
+        </tr>
+        <tr>
+            <th>Mode de Paiement</th>
+            <td>@Model.PymntGroup</td>
+        </tr>
+    </table>
+
+    <div class="text-center mt-3">
+        <a href="@Url.Action("Index", "Clients")" class="btn btn-secondary">Retour à la liste</a>
+    </div>
+</div>

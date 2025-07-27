@@ -1,0 +1,71 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<Foramag.Models.Client>
+
+@{
+    ViewBag.Title = "Clients";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <form asp-controller="Clients" asp-action="Index" method="post">
+        <div class="row justify-content-center align-items-end">
+            <div class="col-md-5">
+                <label for="slpName" class="form-label small">Intitulé Client</label>
+                <input type="text" id="slpName" name="slpName" class="form-control form-control-sm"
+                       value="@ViewBag.LastSlpSearch" />
+            </div>
+            <div class="col-md-2 text-end">
+                <button type="submit" class="btn btn-danger btn-sm w-100" style="background-color: #d65353;">
+                    Rechercher
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <div class="mt-5">
+        @if (Model != null && Model.Any())
+        {
+            <table class="table table-bordered table-sm text-center table-striped">
+                <thead class="table-light">
+                    <tr>
+                        <th></th>
+                        <th>Num Client</th>
+                        <th>Intitulé Client</th>
+                        <th>Ancien Code</th>
+                        <th>Catégorie Tarifaire</th>
+                        <th>Ville</th>
+                        <th>Solvabilité</th>
+                        <th>Commerciale</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var client in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a href="@Url.Action("Detail", "Clients", new { code = client.Num_Client })"
+                                   class="btn btn-sm btn-info">Détail</a>
+                            </td>
+                            <td>@client.Num_Client</td>
+                            <td>@client.Intitule_Client</td>
+                            <td>@client.Ancien_Code</td>
+                            <td>@client.Categorie_Tarifaire</td>
+                            <td>@client.Ville</td>
+                            <td>@client.Solvabilite</td>
+                            <td>@client.Commerciale</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <nav class="d-flex justify-content-center mt-4">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+            </nav>
+        }
+        else
+        {
+            <p class="mt-3 text-muted fst-italic text-center">Aucun client trouvé.</p>
+        }
+    </div>
+</div>

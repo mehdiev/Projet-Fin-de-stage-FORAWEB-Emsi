@@ -1,0 +1,361 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\models\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\models\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\controllers\\articlescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\views\\articles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\views\\documents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\views\\documents\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\views\\documents\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\views\\documents\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\controllers\\documentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\models\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\models\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/MSI/Fora/True/SqlTable/dbo.V_Marque.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\models\\v_marque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\models\\v_marque.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\models\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|c:\\users\\mehdi\\source\\repos\\foramagapp\\foramagapp\\models\\v_doc_lignes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A685F3C5-BF29-4B79-9BA3-137D7A2E8486}|ForamagApp\\Foramag.csproj|solutionrelative:foramagapp\\models\\v_doc_lignes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/MSI/Fora/True/SqlTable/dbo.V_Doc_lignes.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/MSI/Fora/True/SqlTable/dbo.Documents.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ForamagApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ForamagApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHgAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T08:23:29.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "ForamagApp\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T14:04:06.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\Login.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Models\\Login.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\Login.cs",
+              "RelativeToolTip": "ForamagApp\\Models\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:31:55.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Documents\\Detail.cshtml",
+              "RelativeDocumentMoniker": "ForamagApp\\Views\\Documents\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Documents\\Detail.cshtml",
+              "RelativeToolTip": "ForamagApp\\Views\\Documents\\Detail.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-17T18:01:24.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Documents\\Index.cshtml",
+              "RelativeDocumentMoniker": "ForamagApp\\Views\\Documents\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Documents\\Index.cshtml",
+              "RelativeToolTip": "ForamagApp\\Views\\Documents\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-17T18:00:56.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "ForamagApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "ForamagApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-19T08:20:55.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ForamagApp\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:19:58.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ForamagApp\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "ForamagApp\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T13:35:12.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ForamagApp\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T18:04:20.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Articles\\Index.cshtml",
+              "RelativeDocumentMoniker": "ForamagApp\\Views\\Articles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Views\\Articles\\Index.cshtml",
+              "RelativeToolTip": "ForamagApp\\Views\\Articles\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAADwvxMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T09:04:47.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ArticlesController.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Controllers\\ArticlesController.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Controllers\\ArticlesController.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Controllers\\ArticlesController.cs",
+              "RelativeToolTip": "ForamagApp\\Controllers\\ArticlesController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:03:03.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\Article.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Models\\Article.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\Article.cs",
+              "RelativeToolTip": "ForamagApp\\Models\\Article.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:41:16.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DocumentsController.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Controllers\\DocumentsController.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Controllers\\DocumentsController.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Controllers\\DocumentsController.cs",
+              "RelativeToolTip": "ForamagApp\\Controllers\\DocumentsController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAgwEoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T18:00:36.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Home.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\Home.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Models\\Home.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\Home.cs",
+              "RelativeToolTip": "ForamagApp\\Models\\Home.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-19T08:22:27.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Program.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Program.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Program.cs",
+              "RelativeToolTip": "ForamagApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T18:22:07.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "V_Marque.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\V_Marque.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Models\\V_Marque.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\V_Marque.cs",
+              "RelativeToolTip": "ForamagApp\\Models\\V_Marque.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T09:02:02.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "dbo.V_Marque.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/MSI/Fora/True/SqlTable/dbo.V_Marque.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/MSI/Fora/True/SqlTable/dbo.V_Marque.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-21T13:44:29.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Client.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\Client.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Models\\Client.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\Client.cs",
+              "RelativeToolTip": "ForamagApp\\Models\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T18:31:56.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\appsettings.json",
+              "RelativeDocumentMoniker": "ForamagApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\appsettings.json",
+              "RelativeToolTip": "ForamagApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-21T08:01:31.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "V_Doc_lignes.cs",
+              "DocumentMoniker": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\V_Doc_lignes.cs",
+              "RelativeDocumentMoniker": "ForamagApp\\Models\\V_Doc_lignes.cs",
+              "ToolTip": "C:\\Users\\mehdi\\source\\repos\\ForamagApp\\ForamagApp\\Models\\V_Doc_lignes.cs",
+              "RelativeToolTip": "ForamagApp\\Models\\V_Doc_lignes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T18:03:30.128Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "dbo.V_Doc_lignes.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/MSI/Fora/True/SqlTable/dbo.V_Doc_lignes.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/MSI/Fora/True/SqlTable/dbo.V_Doc_lignes.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-17T17:53:19.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "dbo.Documents.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/MSI/Fora/True/SqlTable/dbo.Documents.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/MSI/Fora/True/SqlTable/dbo.Documents.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-07-17T17:43:55.426Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<Foramag.Models.Article>
+
+@{
+    ViewBag.Title = "Articles";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var marqueList = ViewBag.Marques as List<string>;
+}
+
+<div class="container mt-5">
+    <form asp-controller="Articles" asp-action="Index" method="post">
+        <div class="row mb-2">
+            <div class="col-md-4">
+                <label for="marque" class="form-label small">Marque</label>
+                <select name="marque" class="form-select form-select-sm">
+                    <option value="">-- Choisir --</option>
+                    @foreach (var m in marqueList)
+                    {
+                        <option value="@m">@m</option>
+                    }
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="reference" class="form-label small">Référence</label>
+                <input type="text" name="reference" class="form-control form-control-sm" />
+            </div>
+            <div class="col-md-4">
+                <label for="designation" class="form-label small">Désignation</label>
+                <input type="text" name="designation" class="form-control form-control-sm" />
+            </div>
+        </div>
+        <button type="submit" class="btn w-100 mt-2" style="background-color: #d96666; color: white;">Filtrer</button>
+    </form>
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-bordered table-striped table-sm text-center mt-4">
+            <thead class="table-light">
+                <tr>
+                    <th>Photo</th>
+                    <th>Marque</th>
+                    <th>Référence</th>
+                    <th>Désignation</th>
+                    <th>Prix Public HT</th>
+                    <th>Prix Public TTC</th>
+                    <th>Stock</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var article in Model)
+                {
+                    <tr>
+                        <td>
+                            <img src="~/images/@(article.ItemCode + ".jpg")"
+                                 alt="Photo @article.ItemCode"
+                                 class="article-thumbnail"
+                                 onclick="showPopup('@(article.ItemCode + ".jpg")')" />
+                        </td>
+                        <td>@article.Marque</td>
+                        <td>@article.ItemCode</td>
+                        <td>@article.ItemName</td>
+                        <td>@article.Prix_Public.ToString("N2")</td>
+                        <td>@(article.Prix_Public * 1.2m).ToString("N2")</td>
+                        <td>@article.Stock</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div id="imagePopup" class="popup-overlay" onclick="hidePopup()">
+            <img id="popupImage" src="" alt="Popup Image" />
+        </div>
+
+        <nav class="d-flex justify-content-center mt-4">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+        </nav>
+    }
+    else
+    {
+        <p class="text-muted fst-italic text-center mt-4">Aucun article trouvé.</p>
+    }
+</div>
+
+<style>
+    .article-thumbnail {
+        width: 45px;
+        height: 45px;
+        object-fit: cover;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    .popup-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.85);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+    }
+
+        .popup-overlay img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 6px;
+            box-shadow: 0 0 30px white;
+        }
+</style>
+
+<script>
+    function showPopup(imageName) {
+        const popup = document.getElementById('imagePopup');
+        const popupImg = document.getElementById('popupImage');
+        popupImg.src = "/images/" + imageName;
+        popup.style.display = 'flex';
+    }
+
+    function hidePopup() {
+        document.getElementById('imagePopup').style.display = 'none';
+    }
+</script>

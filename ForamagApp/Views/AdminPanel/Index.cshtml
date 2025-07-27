@@ -1,0 +1,33 @@
+﻿@model List<Foramag.Models.Login>
+
+<h2>Gestion des utilisateurs</h2>
+<a href="@Url.Action("Create")" class="btn btn-primary mb-3">Ajouter un utilisateur</a>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Code Commercial</th>
+            <th>Nom</th>
+            <th>Admin</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.SlpCode</td>
+                <td>@u.Username</td>
+                <td>@(u.IsAdmin ? "Oui" : "Non")</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { slpCode = u.SlpCode })" class="btn btn-sm btn-warning">Modifier</a>
+                    <a href="@Url.Action("Delete", new { slpCode = u.SlpCode })"
+                       class="btn btn-sm btn-danger"
+                       onclick="return confirm('⚠️ Êtes-vous sûr de vouloir supprimer l’utilisateur @u.Username (SlpCode: @u.SlpCode) ?');">
+                        Supprimer
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

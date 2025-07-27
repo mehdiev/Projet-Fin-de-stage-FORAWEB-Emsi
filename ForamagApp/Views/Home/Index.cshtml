@@ -1,0 +1,116 @@
+﻿@{
+    ViewBag.Title = "Accueil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var selectedMonths = ViewBag.SelectedMonths as int[];
+    var monthLabels = ViewBag.MonthLabels as List<string>;
+    var monthValues = ViewBag.MonthValues as List<decimal>;
+}
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<div class="container mt-4">
+    <div class="text-center mb-4">
+        <h2 class="text-gradient"></h2>
+    </div>
+
+    <div class="card shadow p-4 mb-4 bg-danger text-white border-light">
+        <h4>Total HT de l’année :</h4>
+        <h2>@ViewBag.TotalYear.ToString("N2") DH</h2>
+    </div>
+
+    <!-- Toggleable Month Selection -->
+    <form method="get" class="mb-4">
+        <button type="button" class="btn btn-outline-danger mb-2" onclick="toggleMonthPanel()">Sélectionner les mois</button>
+
+        <div id="monthPanel" class="card card-body bg-light border border-danger mb-3" style="display: none;">
+            <label class="form-label fw-bold text-dark mb-2">Choisissez les mois :</label>
+            <div class="row">
+                @for (int m = 1; m <= 12; m++)
+                {
+                    <div class="col-md-3 mb-2">
+                        <input type="checkbox" name="selectedMonths" value="@m" @(selectedMonths.Contains(m) ? "checked" : "") />
+                        <label>@System.Globalization.CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(m)</label>
+                    </div>
+                }
+            </div>
+            <button type="submit" class="btn btn-danger mt-2">Afficher</button>
+            <button type="button" class="btn btn-secondary mt-2" onclick="toggleMonthPanel()">Fermer</button>
+        </div>
+    </form>
+
+    @if (selectedMonths.Any())
+    {
+        <div class="alert alert-light border-start border-3 border-danger">
+            <strong>Total HT pour les mois sélectionnés (@string.Join(", ", selectedMonths)) :</strong>
+            @ViewBag.FilteredTotal.ToString("N2") DH
+        </div>
+    }
+
+    <canvas id="monthChart" height="100"></canvas>
+</div>
+
+<script>
+    function toggleMonthPanel() {
+        const panel = document.getElementById("monthPanel");
+        panel.style.display = panel.style.display === "none" ? "block" : "none";
+    }
+
+    const labels = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(monthLabels));
+    const values = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(monthValues));
+
+    new Chart(document.getElementById('monthChart').getContext('2d'), {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Total HT par Mois',
+                data: values,
+                backgroundColor: values.map(v => 'rgba(255, 80, 80, 0.6)'),
+                borderColor: values.map(v => 'rgba(200, 0, 0, 1)'),
+                borderWidth: 2,
+                borderRadius: 5
+            }]
+        },
+        options: {
+            responsive: true,
+            animation: {
+                duration: 1200,
+                easing: 'easeOutBounce'
+            },
+            scales: {
+                x: {
+                    ticks: { color: '#2c2c2c' },
+                    grid: { display: false }
+                },
+                y: {
+                    beginAtZero: true,
+                    ticks: { color: '#2c2c2c' },
+                    grid: { color: 'rgba(0,0,0,0.1)' }
+                }
+            },
+            plugins: {
+                legend: { labels: { color: '#2c2c2c' } },
+                tooltip: {
+                    callbacks: {
+                        label: function (context) {
+                            return context.dataset.label + ': ' + context.parsed.y.toLocaleString() + ' DH';
+                        }
+                    }
+                }
+            }
+        }
+    });
+</script>
+
+<style>
+    body {
+        background-color: #f8f3ee;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    .text-gradient {
+        background: linear-gradient(to right, #d50000, #ff1744);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+</style>

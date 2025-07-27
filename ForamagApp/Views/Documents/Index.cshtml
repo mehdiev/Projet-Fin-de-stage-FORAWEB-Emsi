@@ -1,0 +1,98 @@
+﻿@using X.PagedList
+@using X.PagedList.Mvc.Core
+@model IPagedList<Foramag.Models.Document>
+
+@{
+    ViewBag.Title = "Documents";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <form asp-controller="Documents" asp-action="Index" method="post">
+        <div class="row g-3 justify-content-center align-items-end">
+            <div class="col-md-3">
+                <label for="numDocument" class="form-label small">Num Document</label>
+                <input type="text" id="numDocument" name="numDocument" class="form-control form-control-sm"
+                       value="@ViewBag.LastNumSearch" />
+            </div>
+            <div class="col-md-3">
+                <label for="codeClient" class="form-label small">Code Client</label>
+                <input type="text" id="codeClient" name="codeClient" class="form-control form-control-sm"
+                       value="@ViewBag.LastCodeSearch" />
+            </div>
+            <div class="col-md-3">
+                <label for="nomClient" class="form-label small">Nom Client</label>
+                <input type="text" id="nomClient" name="nomClient" class="form-control form-control-sm"
+                       value="@ViewBag.LastNomSearch" />
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small">Date Début</label>
+                <input type="date" name="dateStart" class="form-control form-control-sm"
+                       value="@ViewBag.LastStartDate" />
+            </div>
+            <div class="col-md-3">
+                <label class="form-label small">Date Fin</label>
+                <input type="date" name="dateEnd" class="form-control form-control-sm"
+                       value="@ViewBag.LastEndDate" />
+            </div>
+        </div>
+
+        <div class="row mt-3">
+            <div class="col-md-2 offset-md-5">
+                <button type="submit" class="btn btn-danger btn-sm w-100" style="background-color: #d65353;">
+                    Rechercher
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <div class="mt-5">
+        @if (Model != null && Model.Any())
+        {
+            <table class="table table-bordered table-sm text-center mt-4 table-striped">
+                <thead class="table-light">
+                    <tr>
+                        <th></th>
+                        <th>Num Document</th>
+                        <th>Date</th>
+                        <th>Code Client</th>
+                        <th>Nom Client</th>
+                        <th>Total TTC</th>
+                        <th>Type</th>
+                        <th>Code COM</th>
+                        <th>Transporteur</th>
+                        <th>Num Expedition</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var doc in Model)
+                    {
+                        <tr>
+                            <td>
+                                <a href="@Url.Action("Detail", "Documents", new { num = doc.Num_Document })"
+                                   class="btn btn-sm btn-info">Détail</a>
+                            </td>
+                            <td>@doc.Num_Document</td>
+                            <td>@doc.Date_Document.ToShortDateString()</td>
+                            <td>@doc.Code_Client</td>
+                            <td>@doc.Nom_Client</td>
+                            <td>@doc.Total_TTC</td>
+                            <td>@doc.Type</td>
+                            <td>@doc.Code_COM</td>
+                            <td>@doc.Transporteur</td>
+                            <td>@doc.Num_Expedition</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+            <nav class="d-flex justify-content-center mt-4">
+                @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+            </nav>
+        }
+        else
+        {
+            <p class="mt-4 text-muted fst-italic text-center">Aucun document trouvé.</p>
+        }
+    </div>
+</div>  

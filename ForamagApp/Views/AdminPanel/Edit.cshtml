@@ -1,0 +1,29 @@
+﻿@model Foramag.Models.Login
+
+<h2>Modifier l'utilisateur</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="SlpCode" /> <!-- SlpCode is key -->
+
+    <div class="mb-3">
+        <label>Code Commercial (lecture seule)</label>
+        <input asp-for="SlpCode" class="form-control" readonly />
+    </div>
+
+    <div class="mb-3">
+        <label>Nom d'utilisateur</label>
+        <input asp-for="Username" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Mot de passe</label>
+        <input asp-for="Password" class="form-control" />
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="IsAdmin" type="checkbox" class="form-check-input" />
+        <label class="form-check-label">Est admin ?</label>
+    </div>
+
+    <button type="submit" class="btn btn-success">Enregistrer</button>
+</form>

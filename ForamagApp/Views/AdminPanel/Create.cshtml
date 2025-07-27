@@ -1,0 +1,27 @@
+﻿@model Foramag.Models.Login
+
+<h2>Créer un utilisateur</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label>Code Commercial</label>
+        <input asp-for="SlpCode" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Nom d'utilisateur</label>
+        <input asp-for="Username" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Mot de passe</label>
+        <input asp-for="Password" class="form-control" />
+    </div>
+
+    <div class="form-check mb-3">
+        <input asp-for="IsAdmin" type="checkbox" class="form-check-input" />
+        <label class="form-check-label">Est admin ?</label>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Créer</button>
+</form>
